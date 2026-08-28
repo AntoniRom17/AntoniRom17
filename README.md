@@ -1,101 +1,128 @@
 # 👋 Antoni
 
-> building things I want to exist.
+> A collection of increasingly elaborate solutions to problems I could have ignored.
 
 Developer and builder based in Chicago.
 
-Most of what I work on lives somewhere between **software, AI, financial systems, data, automation, and personal tools**.
+I build software around things I care about: **AI, finance, decision-making, travel, health, data, and personal systems**.
 
-A lot of the projects here started with the same thought:
+Most projects start with a fairly reasonable thought like:
 
-> 💭 "I wish there was a tool for this."
+> "I wish I had a better way to do this."
 
-So I built one.
-
----
-
-## 🧠 Interested in
-
-`AI / ML` · `FinTech` · `Markets` · `Full-Stack` · `Data` · `Automation` · `Personal Software` · `Systems Design`
-
-I like taking complicated systems and making them feel simple.
+They tend to stop being reasonable shortly afterward.
 
 ---
 
-## 🛠️ Projects
+## 🧩 The ecosystem
 
-### 📓 Daybook
+A lot of what I build follows the same philosophy:
 
-A private, lightweight place for journaling and reflection.
+**private · local-first · useful · boring infrastructure · good interfaces**
 
-### 🗂️ Roam
+I like software that feels personal without requiring an account, a subscription, seventeen permissions, or a server farm quietly learning everything about you.
 
-A personal home for notes, ideas, and everything in between.
+Which has somehow resulted in this:
 
-### 📚 Shelf
+### 💰 Provision
 
-An iPhone-first reading tracker built for tracking books, progress, and reading history.
+A private expense, budget, investment, and net-worth tracker.
+
+Tracks accounts, transactions, budgets, recurring expenses, investments, real estate, portfolio activity, and the rest of the machinery behind personal finances.
+
+Offline-first. No Provision account. No analytics. No backend collecting financial data.
+
+Basically, I looked at personal finance spreadsheets and made the situation significantly more complicated.
+
+### 🗺️ Atlas
+
+**Decision Intelligence.**
+
+A private system for turning difficult decisions into structured models.
+
+Weighted decision matrices, scenarios, Monte Carlo simulations, sensitivity analysis, break-even thresholds, forecasting, calibration, and a decision journal.
+
+Because apparently "thinking about it for a while" was not rigorous enough.
 
 ### 🌑 Veil
 
-Tools for exploring money, markets, financial data, and decision-making.
+A private skincare routine and progress tracker built around one important question:
+
+> "What am I supposed to do to my face right now?"
+
+Routines, products, history, notes, progress photos, observations, compatibility reminders, and backups, all stored locally.
+
+No account. No tracking. No cloud database.
+
+Skincare did not need database architecture.
+
+It has database architecture.
+
+### ✈️ Roam
+
+A private travel operating system.
+
+Trips, itineraries, flights, hotels, reservations, saved places, packing lists, documents, notes, photos, confirmations, and everything else I normally end up hunting through six apps to find.
+
+Designed around having the next useful piece of information available when I actually need it.
+
+I got tired of searching my email for hotel confirmation numbers.
+
+There is now a database schema.
 
 ---
 
 ## 💻 Stack
 
-`TypeScript` · `JavaScript` · `Python`
-`React` · `Next.js` · `Node.js`
-`Tailwind CSS` · `SQL` · `IndexedDB`
+`TypeScript` · `JavaScript` · `Python`  
+`React` · `Next.js` · `Vite` · `Node.js`  
+`SQL` · `IndexedDB` · `Dexie`  
+`Tailwind CSS` · `CSS`  
+`Vitest` · `Playwright` · `Testing Library`  
 `Git` · `GitHub` · `Codex` · `Netlify`
+
+And, increasingly:
+
+`PWA` · `Web Workers` · `Service Workers` · `Local-First Architecture`
+
+I apparently have strong opinions about IndexedDB now.
 
 ---
 
 ## 🕳️ Current rabbit holes
 
-🤖 AI agents and automated workflows
-📈 Financial systems and market infrastructure
-📱 Personal software
-🏃 Human performance data
-🎨 Simple interfaces for complicated systems
+🤖 AI agents and automated workflows  
+📈 Markets, investing, and financial systems  
+🧠 Decision science and forecasting  
+📱 Local-first personal software  
+🏃 Running, fitness, and human performance  
+📸 Photography  
+📚 Reading and knowledge systems  
+⚙️ Making computers handle things I am perfectly capable of doing manually
 
 ---
 
 ## 🔁 Usually
 
 ```text
-💭 idea
-   ↓
-📁 empty folder
-   ↓
-⌨️ build
-   ↓
-🧪 break something
-   ↓
-🔧 fix it
-   ↓
-🚀 ship
-```
-
----
-
-## 🧭 Philosophy
-
-I don't really care whether something is a startup, side project, experiment, or an over-engineered solution to a tiny problem.
-
-If it's interesting, I'll probably build it.
-
-Some projects become serious.
-
-Some stay small.
-
-Some get rewritten three times.
-
-GitHub is mostly the workshop. 🛠️
-
----
-
-### 📍 Chicago
-
-`build → learn → iterate`
-
+notice problem
+      ↓
+"there should be a tool for this"
+      ↓
+create repo
+      ↓
+build the obvious version
+      ↓
+realize the problem is substantially deeper
+      ↓
+data model
+      ↓
+architecture
+      ↓
+tests
+      ↓
+rewrite one suspicious component
+      ↓
+accidentally build an application
+      ↓
+ship
